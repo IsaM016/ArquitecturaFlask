@@ -25,8 +25,8 @@ jobs:
         run: |
           docker build ./randomquotes-flask-master \
             --file ./randomquotes-flask-master/Dockerfile \
-            --tag IsaM171/express-randomquotes:latest
+            --tag isam171/express-randomquotes:latest
 
       - name: Push Docker image
         run: |
-          docker push IsaM171/express-randomquotes:latest
+          docker push isam171/express-randomquotes:latest
